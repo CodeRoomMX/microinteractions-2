@@ -11,4 +11,9 @@ Debido a que en este proyecto tu contenido debe estar animado, puedes utilizar l
 - [Magic](https://www.minimamente.com/example/magic_animations/)
 - [Hover.css](http://ianlunn.github.io/Hover/)
 
-*Recuerda que para comenzar a desarrollar debes crear todos los archivos necesarios y las conexiones entre ellos(index.html, style.css, app.js...)*
+## Tips
+- Recuerda que para comenzar a desarrollar debes crear todos los archivos necesarios y las conexiones entre ellos(index.html, style.css, app.js...)
+- La animación de este botón no contempla pausas entre uno y otro estado, por lo que considera los siguientes:
+1. Cuando el mouse está sobre el botón, muestra el borde de color.
+2. Cuando se le da click al botón, cambia el color del ícono, salen los triángulos y círculos animados, sale el círculo de +1 en la parte de arriba del botón y se suma 1 al contador.
+3. Si ya se le ha dado click al botón, cuando se pasa el mouse por encima debes mostrar el botón de eliminar(la x). Si se le da click a esa x el ícono regresa a su estado original y se resta uno al contador.
